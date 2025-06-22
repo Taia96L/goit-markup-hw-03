@@ -281,6 +281,9 @@ body {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
 }
+.portfolio-item:nth-child(-n + 3) {
+  border-top: none;
+}
 
 /* Team and Portfolio section styles end */
 
