@@ -152,7 +152,6 @@ body {
   color: #fff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   cursor: pointer;
-  margin-bottom: 188px;
 }
 
 .order-button:hover,
@@ -204,9 +203,6 @@ body {
 .team {
   background-color: #f4f4fd;
 }
-.team-container {
-  padding: 0;
-}
 
 .team-list {
   display: flex;
@@ -221,7 +217,6 @@ body {
   background: #fff;
 }
 .team-card {
-  display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -231,7 +226,6 @@ body {
 .team-title,
 .portfolio-title {
   text-align: center;
-  padding-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -273,7 +267,7 @@ body {
   width: calc((100% - 48px) / 3);
 }
 .portfolio-card {
-  display: flex;
+  text-align: left;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
@@ -289,11 +283,6 @@ body {
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
-}
-
-.footer-container {
-  max-width: 264px;
-  margin: 0;
 }
 
 .footer-logo {
@@ -316,5 +305,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 /* Footer styles end */
